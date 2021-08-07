@@ -39,7 +39,7 @@ if (!$responseError) {
         $page = $total_pages;
     }
 
-// Validation: Page to display can not be less than 1
+// Page to display can not be less than 1
     if ($page < 1) {
         $page = 1;
     }
