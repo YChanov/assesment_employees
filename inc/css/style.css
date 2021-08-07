@@ -1,0 +1,160 @@
+body {
+    background-color: #f3f2ef;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,
+    Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,
+    Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+
+.profiles {
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    padding: 20px 5px 20px 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #0a66c2;
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.record-count {
+    width: 60%;
+    margin: auto;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 8px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img-soruce{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-data{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.profile-name, .profile-title,
+.profile-company,
+.profile-bio {
+    display: block;
+}
+
+.profile-name{
+    color: rgba(0,0,0,0.8);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.profile-bio{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.profile-title{
+    font-size: 1.1rem;
+}
+
+.profile-company {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 70%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    background-color: #f3f2ef;
+}
+
+.active-page {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0a66c2;
+}
+
+.active-page:hover{
+    cursor: default;
+    background-color: inherit;
+}
+
+.pleft{
+    display: flex;
+    background-color: inherit;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pleft:hover{
+    background-color: #f3f2ef;
+}
+
+.pright{
+    display: flex;
+    background-color: inherit;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pright:hover{
+    background-color: #f3f2ef;
+}
+
+.error-response {
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    padding: 20px 5px 20px 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0a66c2;
+}
